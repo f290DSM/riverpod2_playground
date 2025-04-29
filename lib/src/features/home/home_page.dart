@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpod2_playground/src/features/counter/counter_page.dart';
-import 'package:riverpod2_playground/src/features/home/other_page.dart';
 import 'package:riverpod2_playground/src/features/home/providers/app_provider.dart';
 
 import '../quotes/presentation/quotes_page.dart';

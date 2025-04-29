@@ -3,9 +3,7 @@ import 'package:riverpod2_playground/src/features/quotes/data/clone_wars_datasou
 
 class CloneWarsQuoteCardWidget extends StatelessWidget {
   const CloneWarsQuoteCardWidget({super.key, required this.quote});
-
   final Quote quote;
-
   @override
   Widget build(BuildContext context) {
     return Card(
