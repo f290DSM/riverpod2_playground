@@ -1,3 +1,14 @@
+import 'dart:convert';
+
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+Provider<List<Season>> cloneWarsQuotesProvider = 
+  Provider<List<Season>>((ref) {
+  var json = jsonDecode(quotes);
+  final datasource = CloneWarsQuotesDataSource(json);
+  return datasource.seasons;
+});
+
 class CloneWarsQuotesDataSource {
   final Map<String, dynamic> _data;
 
