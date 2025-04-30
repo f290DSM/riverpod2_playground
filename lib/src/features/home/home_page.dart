@@ -56,7 +56,7 @@ class HomePage extends ConsumerWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => CloneWarsQuotesPage(),
+                    builder: (context) => QuotesPage(),
                   ),
                 );
               },
