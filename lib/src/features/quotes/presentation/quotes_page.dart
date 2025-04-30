@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod2_playground/src/features/quotes/data/dummy_json_quote_domain.dart';
+import 'package:riverpod2_playground/src/features/quotes/domain/dummy_json_quote_domain.dart';
 import 'package:riverpod2_playground/src/features/quotes/presentation/clone_wars_quotes_page.dart';
 import 'package:riverpod2_playground/src/features/quotes/presentation/dummy_json_quotes_page.dart';
 

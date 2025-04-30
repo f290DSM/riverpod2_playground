@@ -4,6 +4,7 @@ class DummyJsonQuoteDomain {
   int id;
   String quote;
   String author;
+  
   DummyJsonQuoteDomain({
     required this.id,
     required this.quote,
@@ -58,3 +59,5 @@ class DummyJsonQuoteDomain {
   @override
   int get hashCode => id.hashCode ^ quote.hashCode ^ author.hashCode;
 }
+
+  
