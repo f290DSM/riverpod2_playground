@@ -9,8 +9,12 @@ class DummyJsonQuotesPage extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+
+    //TODO: conectar ao provider
+
     return Scaffold(
       appBar: AppBar(title: Text('Dummy Json')),
+      //TODO: Alterar tipo para AsyncValue
       body: Center(
         child: Card(
           child: ListTile(
@@ -19,6 +23,12 @@ class DummyJsonQuotesPage extends ConsumerWidget {
             subtitle: Text(data.author),
           ),
         ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          //TODO: Alterar quote
+        },
+        child: const Icon(Icons.refresh),
       ),
     );
   }
